@@ -1,0 +1,1 @@
+<a href='/Profile/details/<?=$data->user_id ?>'><?= htmlspecialchars($data) ?></a>
