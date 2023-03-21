@@ -6,7 +6,7 @@ class Model{
 
 	public function __construct(){
 		$server = 'localhost';//127.0.0.1
-		$dbname = 'cliquebait';
+		$dbname = 'teacher_cliquebait';
 		$username = 'root';
 		$password = '';
 

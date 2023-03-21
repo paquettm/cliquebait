@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `cliquebait`
 --
-CREATE DATABASE IF NOT EXISTS `cliquebait` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `cliquebait`;
+CREATE DATABASE IF NOT EXISTS `teacher_cliquebait` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `teacher_cliquebait`;
 
 -- --------------------------------------------------------
 

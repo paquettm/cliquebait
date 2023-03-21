@@ -44,7 +44,7 @@ class Profile extends \app\core\Controller{
 			$profile->middle_name = $_POST['middle_name'];
 			$profile->last_name = $_POST['last_name'];
 			$profile->user_id = $_SESSION['user_id'];
-			$_SESSION['user_id'] = $profile->insert();
+			$profile->insert();
 			header('location:/Profile/index');
 		}else{
 			$this->view('Profile/create');
